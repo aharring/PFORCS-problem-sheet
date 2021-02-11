@@ -68,8 +68,6 @@
 #		I originally was printing the 'symbol' associated with a given dict entry but it didn't seem to print the euro sign correctly
 #		So I just put '€' in front of the rate instead of calling format on the dict entry	
 #		I had to revisit how to use positional formatting in a print statement
-#		I have since realised that VSCode will also show a Json file format but I tend to write my programs on the cmdline using vi
-#		The research around using jq to format a json file was worthwhile
 #
 #	References :
 #		W3Schools

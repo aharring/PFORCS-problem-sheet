@@ -52,7 +52,7 @@ outputList = [] # Array used in Option 2 above
 
 while (notPosInt) : # Check input is both an int and positive
     try :
-         currentValue = int(input("Please enter a positive integer "))  # Prompt for user input. Verify the input is an integer
+         currentValue = int(input("\nPlease enter a positive integer "))  # Prompt for user input. Verify the input is an integer
          if currentValue <  0 : 				        # Verify the input is positive
              print ("The input must be both an integer and positive \n")
          else :

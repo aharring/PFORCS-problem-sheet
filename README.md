@@ -68,7 +68,6 @@ What I learned :
 	 that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and array data types (or any other serializable value.
 	 2. How to read a json url & assign it to a python object
 	 3. How to parse the python object to access the data I wanted
-	 4. VSCode will read a json file and show you the structure in an eye readable format
 	 
 Resources :
 	1. Google - to find a json formatting command (jq)
@@ -77,7 +76,26 @@ Resources :
 	4. StackOverflow - More about Dicts
 	
 	
+GMIT Python Weekly Assignments & Problem Sheet Solutions
 
+Problem Sheet Assignment Week04 : collatz.py
+Task Requirement :
+	Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.
+
+	At each step calculate the next value by taking the current value and, 
+	if it is even, divide it by two, 
+	but if it is odd, multiply it by three and add one.
+
+	Have the program end if the current value is one.
+
+What I learned :
+	1. How to handle while loops, if statements and for loops
+	2. How to print the contents of aa list without [], all on one line with spaces between each entry
+
+Resources :
+	1. Wednesday Lunchtime tutorial - print (list, end = " ") introduced by lecturer Andrew Beatty
+	2. w3schools for conditional statements & try/except statements
+	3. Example program on lecturers github showing how to manage multiple exceptions in a try/except statement. Didn't use this yet though.
 
 
 
