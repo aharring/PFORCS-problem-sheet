@@ -2,15 +2,17 @@
 GMIT Python Weekly Assignments &amp; 
 Problem Sheet Solutions
 
-Problem Sheet Assignment : BMI.py
-1. Write a program that calculates somebody's Body Mass Index (BMI).
+Problem Sheet Assignment Week02 : BMI.py
+Task Requirement :
 
-The inputs are the person's height in centimetres and weight in kilograms.
-The output  is their weight divided by their height in metres squared.
-$ python bmi.py
-Enter weight: 65
-Enter height: 180
-BMI is 20.06.
+	1. Write a program that calculates somebody's Body Mass Index (BMI).
+
+	The inputs are the person's height in centimetres and weight in kilograms.
+	The output  is their weight divided by their height in metres squared.
+	$ python bmi.py
+	Enter weight: 65
+	Enter height: 180
+	BMI is 20.06.
 
 Notes, Assumptions & Error Checks
 
@@ -35,19 +37,46 @@ The program then calculates their BMI using the formula kg/hsquared and outputs 
 
 What I learned :
 
-	How to prompt for user input
-	How to assign variables
-	How to construct a while loop
-	How to test a condition using try & except
-	How to do simple calculations using operators
-	How to cast a variable to another type
-	How to output a calculation
+	1. How to prompt for user input
+	2. How to assign variables
+	3. How to construct a while loop
+	4. How to test a condition using try & except
+	5. How to do simple calculations using operators
+	6. How to cast a variable to another type
+	7. How to output a calculation
 
 Resources :
-	W3Schools
-	Stackoverflow.com
+	1. W3Schools
+	2. Stackoverflow.com
 
+GMIT Python Weekly Assignments & Problem Sheet Solutions
 
+Problem Sheet Assignment Week03 : bitcoin.py
+Task Requirement :
+	1. Write a program (bitcoin.py) that outputs the current bitcoin price in US
+	Dollars. Use the supplied code snippet to get a Dict object that contains
+        the price.
+	2. Extra output all the price in the three currencies, in a neat way
+	
+Notes : 
+	The url supplying the json data as well as the code to read & assign that data to a python object was supplied by the lecturer, Andrew Beatty
+	The command cat - | jq . jsonstring was used to display the json data in an eye readable format 
+	
+What I learned :
+
+	 1. Json Definition (wikipedia) :is an open standard file format, and data interchange format, 
+	 that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and array data types (or any other serializable value.
+	 2. How to read a json url & assign it to a python object
+	 3. How to parse the python object to access the data I wanted
+	 4. VSCode will read a json file and show you the structure in an eye readable format
+	 
+Resources :
+	1. Google - to find a json formatting command (jq)
+	2. Wikipedia - what exactly is 'json'
+	3. W3Schools - Understanding Dicts
+	4. StackOverflow - More about Dicts
+	
+	
 
 
 
