@@ -98,6 +98,23 @@ Resources :
 	3. Example program on lecturers github showing how to manage multiple exceptions in a try/except statement. Didn't use this yet though.
 
 
+GMIT Python Weekly Assignments & Problem Sheet Solutions
+
+Problem Sheet Assignment Week05 : squareroot.py
+Task Requirement :
+        Write a program that takes a positive number as input, passes it to a function which attempts to approximate the square root
+        of the inputted value and returns that value to be printed to the terminal. The task stiplulated we must not use python inbuilt
+        functions but instead write our own square root function based on Newton's method 
+
+What I learned :
+	1. How to define a function 
+	2. How to pass values to a function
+        3. How to return a value from a function
+ 
+Resources :
+	1. Google "What is Newton's method for calculating a square root" 
+	2. Lecture Week 05 & Live tutorial - understanding functions 
+
 
 
 
