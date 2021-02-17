@@ -23,20 +23,24 @@
 #           It's approximate so you have to define a tolerance within which you are willing to accept the answer
 #           Also,the example shows the answer rounded to 1 decimal place	
 #
+#       Notes
+#           The sample output provided with the assignment gives an answer rounded to one decimal place so I rounded to one decimal place
+#           This means for an input of 99 the output is 9.9 whereas in fact 9.94987437 is far more accurate
+#           
 #	References :
-#               Multiple YouTube Videos explaining Newton's method
-#               stackoverflow
-#		W3Schools
-#		Assigned labs for week 5 
+#           Multiple YouTube Videos explaining Newton's method
+#           stackoverflow
+#	    W3Schools
+#	    Assigned labs for week 5 
 #
 
-def calApproxSqRoot(numToFindSquareRootOf) :
+def sqrt(numToFindSquareRootOf) :
     
-    acceptableTolerance = .001 # I made this up 
+    acceptableTolerance = .01 # I made this up. There didn't seem to be a notable difference between .01 and say .00000001
     fingerInTheAirGuess = (numToFindSquareRootOf/2) # This really did seem to be a finger in the air number so I chose the middle
     while True :
         approxSquareRoot = .5 * (fingerInTheAirGuess + (numToFindSquareRootOf/fingerInTheAirGuess)) # Guess = 1/2* (X + N/X)
-        if (abs(fingerInTheAirGuess - approxSquareRoot) < acceptableTolerance) : # If the absolute diff between guess & calc is < .001 return
+        if (abs(fingerInTheAirGuess - approxSquareRoot) < acceptableTolerance) : # If the absolute diff between guess & calc is < .01 return
             return round(approxSquareRoot, 1)
         else :
             fingerInTheAirGuess = approxSquareRoot # We need a new finger in the air 
@@ -46,6 +50,6 @@ numToFindSquareRootOf = float(input ("\nPlease enter a positive number :")) # Pr
 while numToFindSquareRootOf <= 0 :
     numToFindSquareRootOf = float(input ("\nPlease enter a positive number :"))
 
-approxSquareRoot = calApproxSqRoot(numToFindSquareRootOf)
+approxSquareRoot = sqrt(numToFindSquareRootOf)
 
 print("\nThe square root of {} is approx. {}.\n" .format (numToFindSquareRootOf, approxSquareRoot))
