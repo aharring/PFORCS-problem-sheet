@@ -40,6 +40,8 @@
 #		I have left the code in for option 1 above simply for reference but commented it out because
 #               I tested both methods and I could see no appreciable difference in run time but the array method looked cleaner
 #
+#       Sample input/output : Given an input of 10 output is 10 5 16 8 4 2 1
+#
 #	References :
 #		W3Schools
 #		Assigned labs for week 4
