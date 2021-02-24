@@ -26,7 +26,9 @@
 #
 #       What I learned :
 #           How to read command line arguments passed to a python program
-#           
+#           How to check if a file exists
+#           How to open a file for reading
+#           How to read in the content of a file
 #	References :
 #           tutorialspoint.com "Python Command Line Arguments" - module sys & command line arguments
 #	    Assigned labs for week 6 
