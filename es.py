@@ -46,12 +46,23 @@ def readFile (filename) :
 
 # This method uses the inbuilt function 'count' but it will only count lower case e's not upper case e's
 # This was actually a guess on my part. I subequently googled and read examples 
+# Our lecturer also mentioned it in passing when referring to W3 listed string methods in a subsequent
+# lecture
 # Once I realised the count was case sensitive I tried hit and miss count('e','E'), ('e' or 'E'), count.capitalize etc which all failed
 # I left the code in for reference
 
     with open(filename, "rt") as file :
         justE  = file.read().count('e') 
         print("\nThere are {} lowercase e's in {}\nThis was calculated using the inbuilt 'count' function\n" .format(justE, filename))
+
+# Mar 1st. A third way of approaching the question
+
+    with open(filename, "rt") as file :
+        allTheTextInTheFile  = file.read() 
+        allTheTextInTheFile = allTheTextInTheFile.lower()
+        allTheTextInTheFile = allTheTextInTheFile.count('e')
+        print("\nThere are {} e's in {}\nThis was calculated first reading in the file, converting to lowercase and then applying count function\n" .format(allTheTextInTheFile, filename))
+
 
 # This is an alternative method for counting the E's - I split it in to upp and lower case just for practice 
 # I also wanted to check if I was getting the same answer as the shorter method above

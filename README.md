@@ -135,12 +135,17 @@ GMIT CyberSecurity : Programming for CyberSecurity, Python
        4. The function looks at two methods for approaching the question
           The first is in the inbuilt count function. This is case sensitive so if count('e') gives a different answer to count('E'). I left this code in just so you could see it
           The second is the more traditional method - assign the fileinput to an array then loop through each character checking if it is an 'e' or 'E' and incrementing a counter
+          A third method - reading in all the input, converting it to lower case & applying the count
+          function was added March 1st
        5. Print the output
 
 Notes : 
      I assigned a the output of the read to a variable and then printed the variable to see what a read stored
      I did note you could read the file line by line but it seemed as handy to read the whole thing in one go - I'm not sure what would happen if the file was massive
      I think you could read 536,870,912 on a 32 bit system before you'd encounter a problem using the method I used
+     In week 07 the lecturer referenced python strings methods in passing & I revisted W3schools
+     I saw I would read the whole file in, convert it to lower case then apply the count function
+     I have included this code for reference
 
  What I learned :
      How to read command line arguments passed to a python program.
