@@ -157,6 +157,27 @@ References :
      tutorialspoint.com "Python Command Line Arguments" - module sys & command line arguments
      Assigned labs for week 6 
 
+ GMIT CyberSecurity : Programming for CyberSecurity, Python
+ Lecturer : Andrew Beatty
+ Problem Sheet Week 7  
+
+ Task Requirement :
+      Write a program called extract-url.py, that will extract the URLs from an access.log file.
+ Program Name : extract-url.py 
+
+ Program Function : 
+       1. If the file exists open it 
+       2. Read the file. Pattern match 
+       3. Place the matches in a list
+       
+       Notes : Work in progress
+
+       What I learned : I'm still learning
+
+       References :
+           W3Schools Regular Expressions
+           RealPython Regular Expressions
+           Assigned labs for week 7 
 
 
 
