@@ -157,27 +157,57 @@ References :
      tutorialspoint.com "Python Command Line Arguments" - module sys & command line arguments
      Assigned labs for week 6 
 
- GMIT CyberSecurity : Programming for CyberSecurity, Python
- Lecturer : Andrew Beatty
- Problem Sheet Week 7  
+GMIT CyberSecurity : Programming for CyberSecurity, Python
+Lecturer : Andrew Beatty
+Problem Sheet Week 7  
 
- Task Requirement :
-      Write a program called extract-url.py, that will extract the URLs from an access.log file.
- Program Name : extract-url.py 
+Task Requirement :
+     Write a program called extract-url.py, that will extract the URLs from an access.log file.
+Program Name : extract-url.py 
 
- Program Function : 
+Program Function : 
        1. If the file exists open it 
-       2. Read the file. Pattern match 
+       2. Open the file. 
+          a. For each line in the file extract the portion of the line corresponding to the url
+          e.g. '/cart.do?action=view&itemId=EST-6&productId=SC-MG-G10&JSESSIONID=SD5SL9FF2ADFF4958' 
        3. Place the matches in a list
+              a. This is contained in the function extractURLs
+
+       4. For each url in the list split it in to it's component parts which should be stored as a dict
+
+          e.g.
+          [ 
+             {
+               'resource':'cart.do', 
+               'parameters':{
+                   'action':'view',
+                   'itemId':'EST-6',
+                   'productId':'SC-MG-G10'
+                   'JSESSIONID':'SD5SL9FF2ADFF4958'
+               }
+             },
+             #next dictionary object
+          ]
+             a. This is contained in the function extractDictEntriesFromURLList  
+
+        5. Print the results neatly
+             a. This is contained in the function printResults
        
-       Notes : Work in progress
+Notes : I first return the list of URLs and then process that list to a second list of dicts.
+        This is to show the two distinct pieces of work 
+        In my original lognger file I noted sometimes there was an action but no product. 
+        I tried to accomodate this by putting 'Unavailable' in these situations
+        While my url List pulls out all urls my dict only pulls out entries that appeared to match
 
-       What I learned : I'm still learning
+        My first attempt at completing this task is stored in extract-urlAtt1.py
+        
+What I learned : I require a lot of practice on Regex
 
-       References :
-           W3Schools Regular Expressions
-           RealPython Regular Expressions
-           Assigned labs for week 7 
+References :
+       python.org
+       W3Schools Regular Expressions
+       RealPython Regular Expressions
+       Assigned labs for week 7 
 
 
 

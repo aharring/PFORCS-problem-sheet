@@ -1,2 +1,0 @@
-==> 200linesaccess.log <==
-199.15.234.66 - - [08/Feb/2021:18:24:31] "GET /cart.do?action=view&itemId=EST-6&productId=SC-MG-G10&JSESSIONID=SD5SL9FF2ADFF4958 HTTP 1.1" 200 3033 "http://www.google.com" "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.28) Gecko/20120306 YFF3 Firefox/3.6.28 ( .NET CLR 3.5.30729; .NET4.0C)" 177
