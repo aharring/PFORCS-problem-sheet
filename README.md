@@ -195,11 +195,13 @@ Program Function :
        
 Notes : I first return the list of URLs and then process that list to a second list of dicts.
         This is to show the two distinct pieces of work 
-        In my original lognger file I noted sometimes there was an action but no product. 
+        I noticed some resource lines did not have a leading '/' so I changed the orig url extraction regex to look for everything after 'GET|POST'
+        In my original longer file I noted sometimes there was an action but no product. 
         I tried to accomodate this by putting 'Unavailable' in these situations
         While my url List pulls out all urls my dict only pulls out entries that appeared to match
 
         My first attempt at completing this task is stored in extract-urlAtt1.py
+        My second attempt at completing this task is stored in extract-urlAtt2.py
         
 What I learned : I require a lot of practice on Regex
 

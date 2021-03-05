@@ -38,12 +38,10 @@
 #       
 #       Notes : I first return the list of URLs and then process that list to a second list of dicts.
 #               This is to show the two distinct pieces of work 
-#               In my original longer file I noted sometimes there was an action but no product. 
+#               In my original lognger file I noted sometimes there was an action but no product. 
 #               I tried to accomodate this by putting 'Unavailable' in these situations
 #               While my url List pulls out all urls my dict only pulls out entries that appeared to match
 #               the sample output, i.e. rows that had 'action'. 
-#               I noted that sometimes the 'resource' did not have a leading '/' and that my URL extraction would miss these lines
-#               I changed the url search string to search on everything after the GET or POST
 #
 #       What I learned : I require a lot of practice on Regex
 #
@@ -60,7 +58,7 @@ filename = "shortlog.log"
 
 def extractURLs(inputFile) :
 
-    regex = "(?<=[GET|POST])\s+\S+" # Everything after GET or POST 
+    regex = "(?<=\s)/\\S+" # Everything after the first ' /' upto the next non S which is a space
     urlList = []
 
     # Open the file
@@ -85,7 +83,7 @@ def extractDictEntriesFromURLList (urlList) :
         if urlDetails.find('action') != -1 :   # This row contains the data requested
             resource = re.findall(regexResource, urlDetails) 
             resourceName = resource [0]        # The result of the regex comes back in an array. We need the first entry
-            url['resource'] = resourceName[1:] # Remove leading '/'            .. the action lines always have a leading /
+            url['resource'] = resourceName            
 
             parameterList = re.findall(regexParameters, urlDetails) # Array contains action, item, product & session
             url['action'] = parameterList[0]
