@@ -211,6 +211,31 @@ References :
        RealPython Regular Expressions
        Assigned labs for week 7 
 
+GMIT CyberSecurity : Programming for CyberSecurity, Python
+Lecturer : Andrew Beatty
 
+Problem Sheet Week 8
 
+Task Requirement :
+      Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
+
+Program Name : plottask.py
+
+Program Function :
+      Using imported module numpy the program creates 3 arrays, x is a numpy array in the range of 0-4, y2 is x squared, y3 is x cubed
+      Plot each, with markers, in relation to x using the module matplotlib.
+      Label the axes, make Y horizontal
+      Create a title, a centered legend and a grid.
+      Display the graph
+      Save the graph image to file
+
+What I learned :
+      How to manipulate numpy arrays
+      How to plot graphs using matplotlib
+      I've a way to go before the OO version on RealPython makes sense
+
+References :
+      Weekly recommended reading on w3schools & RealPython
+      https://www.tutorialspoint.com/numpy/numpy_array_from_numerical_ranges.htm - how to define a numpy range
+      stackoverflow - annotate, title spanning 2 lines, superscripts
 
