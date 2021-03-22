@@ -1,5 +1,9 @@
-# PFORCS-problem-sheet
-GMIT Python Weekly Assignments &amp; 
+GMIT Cybersecurity Python Weekly Assignments &amp; 
+
+Lecturer : Andrew Beatty
+Student  : Adele Harrington
+
+PFORCS-problem-sheet - 
 Problem Sheet Solutions
 
 Problem Sheet Assignment Week02 : BMI.py
@@ -239,3 +243,57 @@ References :
       https://www.tutorialspoint.com/numpy/numpy_array_from_numerical_ranges.htm - how to define a numpy range
       stackoverflow - annotate, title spanning 2 lines, superscripts
 
+GMIT CyberSecurity : Programming for CyberSecurity, Python
+Lecturer : Andrew Beatty
+
+Problem Sheet Week 10
+
+Task Requirement :
+   Write a (bullet proof) function called averageTo(aList, toIndex)
+   The function should take in a list and an index.
+   The function will return the average of the numbers upto and including the toIndex in the aList.
+   The function to always return an integer, even if a error occurs (say return -1),
+   The function will use logging to make a meaningful log warning, for any error that occurs
+   (eg the aList contains an entry that is not a number/ toIndex is not valid)
+   The program should include test cases to verify functionality
+
+Program Name : averageTo.py
+Program Parameters : aList, toIndex
+
+Program Function :
+    For confirmed valid data return the average of numbers upto and including the toIndex in aList
+    Invalid data should return an int & post a meaningful error message
+    Validation Checks/Assumptions
+
+         1. A Negative toIndex will reevaluate to it's positive index position provided it is not out of bounds
+          e.g averageTo ([1,2,3,-44, 18, 10], -4 )   toIndex -4 equates to toIndex 2
+          and averageTo ([1,2,3,-44, 18, 10], -6 )   toIndex -6 equates to toIndex 0
+          but  averageTo ([1,2,3,-44, 18, 10], -6 )  toIndex -7 is in invalid index number
+         2. averageTo ([1,2,3,-44, 18, 10], 4 )      Negative numbers in the list do not cause a problem
+         3. averageTo ([1,-1], 1 )                   It's ok if our list values add to 0
+         4. averageTo ([1], 0)                       This is fine it will be 1/1
+         5. averageTo ([1,2,3,4], 4)                 toIndex out of bounds, max toIndex is 3
+         6. averageTo ([1,2,3,4], 2.5)               toIndex must be an int
+         7. averageTo ([1,2,3,4], 3.0)               toIndex must be an int. 3.0 will be interpreted as 3
+         8. averageTo ([1,2,3,4], 'a')               toIndex must be an int
+         9. averageTo ([], 1)                        aList may not be empty
+        10. averageTo ([1, 'b',2], 2)                aList values must be numbers
+        11. averageTo ([1,2,3,4], [])                toIndex must be an int  Empty List invalid
+        12. averageTo (3, 0)                         This will c
+       12a. averageTo (3.5, 0)                       3 translates to [3.5] which will return int 3
+        13. averageTo ()                             Function requires two args. Python TypeError. Still Messy
+        14. averageTo ([1,2,3,4], a)                 toIndex must be an int  NOT WORKING YET
+        15. averageTo (a, 1)                         NameError - Not nicely dealt with yet  
+
+       What I learned :
+           int(variable) does not behave the same as int(round(variable))
+
+Notes/Assumptions
+    The averageTo function returns a rounded int value as opposed to just an int
+    This means an average of 2.75 will be returned as 3 not 2
+References :
+    Weekly recommended reading on w3schools & RealPython
+    stackoverflow examples of isinstance, & float.is_integer()
+    https://www.python.org/dev/peps/pep-0570/#positional-only-parameters
+    https://docs.python.org/3/tutorial/errors.html
+    https://stackoverflow.com/questions/19684434/best-way-to-check-function-arguments (Read but not implemented)w 

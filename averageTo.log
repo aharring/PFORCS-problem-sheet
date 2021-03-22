@@ -1,0 +1,844 @@
+Summing list entries [3.5] to index 0 in list len 1
+CurrentArray pos 0, CurrentArray Value 3.5
+
+
+Sum elements 0-0 in array [3.5]  is  3.
+The float average is 3.500000.
+The int value is 3.
+The rounded int value is 4
+
+Summing list entries [1, 2, 3, 4, 18, 10] to index 4 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+CurrentArray pos 4, CurrentArray Value 18
+
+
+Sum elements 0-4 in array [1, 2, 3, 4, 18, 10]  is  28.
+The float average is 5.600000.
+The int value is 5.
+The rounded int value is 6
+
+Original toIndex -4
+Modified toIndex  2
+Summing list entries [1, 2, 3, -44, 18, 10] to index 2 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+
+
+Sum elements 0-2 in array [1, 2, 3, -44, 18, 10]  is  6.
+The float average is 2.000000.
+The int value is 2.
+The rounded int value is 2
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Summing list entries [1, 2, 3, -44, 18, 10] to index 4 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value -44
+CurrentArray pos 4, CurrentArray Value 18
+
+
+Sum elements 0-4 in array [1, 2, 3, -44, 18, 10]  is  -20.
+The float average is -4.000000.
+The int value is -4.
+The rounded int value is -4
+
+Summing list entries [1, -1] to index 1 in list len 2
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value -1
+
+
+Sum elements 0-1 in array [1, -1]  is  0.
+The float average is 0.000000.
+The int value is 0.
+The rounded int value is 0
+
+Summing list entries [1] to index 0 in list len 1
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Original toIndex -2
+Modified toIndex  5
+Summing list entries [1, 2, 3, 4, 9, 10, 15] to index 5 in list len 7
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+CurrentArray pos 4, CurrentArray Value 9
+CurrentArray pos 5, CurrentArray Value 10
+
+
+Sum elements 0-5 in array [1, 2, 3, 4, 9, 10, 15]  is  29.
+The float average is 4.833333.
+The int value is 4.
+The rounded int value is 5
+
+Summing list entries [1, 2, 3, 4] to index 3 in list len 4
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+
+
+Sum elements 0-3 in array [1, 2, 3, 4]  is  10.
+The float average is 2.500000.
+The int value is 2.
+The rounded int value is 2
+
+Summing list entries [1, 2, 3, 4, 18, 10] to index 4 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+CurrentArray pos 4, CurrentArray Value 18
+
+
+Sum elements 0-4 in array [1, 2, 3, 4, 18, 10]  is  28.
+The float average is 5.600000.
+The int value is 5.
+The rounded int value is 6
+
+Original toIndex -4
+Modified toIndex  2
+Summing list entries [1, 2, 3, -44, 18, 10] to index 2 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+
+
+Sum elements 0-2 in array [1, 2, 3, -44, 18, 10]  is  6.
+The float average is 2.000000.
+The int value is 2.
+The rounded int value is 2
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Summing list entries [1, 2, 3, -44, 18, 10] to index 4 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value -44
+CurrentArray pos 4, CurrentArray Value 18
+
+
+Sum elements 0-4 in array [1, 2, 3, -44, 18, 10]  is  -20.
+The float average is -4.000000.
+The int value is -4.
+The rounded int value is -4
+
+Summing list entries [1, -1] to index 1 in list len 2
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value -1
+
+
+Sum elements 0-1 in array [1, -1]  is  0.
+The float average is 0.000000.
+The int value is 0.
+The rounded int value is 0
+
+Summing list entries [1] to index 0 in list len 1
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Original toIndex -2
+Modified toIndex  5
+Summing list entries [1, 2, 3, 4, 9, 10, 15] to index 5 in list len 7
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+CurrentArray pos 4, CurrentArray Value 9
+CurrentArray pos 5, CurrentArray Value 10
+
+
+Sum elements 0-5 in array [1, 2, 3, 4, 9, 10, 15]  is  29.
+The float average is 4.833333.
+The int value is 4.
+The rounded int value is 5
+
+Summing list entries [1, 2, 3, 4] to index 3 in list len 4
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+
+
+Sum elements 0-3 in array [1, 2, 3, 4]  is  10.
+The float average is 2.500000.
+The int value is 2.
+The rounded int value is 2
+
+Summing list entries [1, 'b', 2] to index 2 in list len 3
+CurrentArray pos 0, CurrentArray Value 1
+Summing list entries [1, 2, 3, 4, 18, 10] to index 4 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+CurrentArray pos 4, CurrentArray Value 18
+
+
+Sum elements 0-4 in array [1, 2, 3, 4, 18, 10]  is  28.
+The float average is 5.600000.
+The int value is 5.
+The rounded int value is 6
+
+Original toIndex -4
+Modified toIndex  2
+Summing list entries [1, 2, 3, -44, 18, 10] to index 2 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+
+
+Sum elements 0-2 in array [1, 2, 3, -44, 18, 10]  is  6.
+The float average is 2.000000.
+The int value is 2.
+The rounded int value is 2
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Summing list entries [1, 2, 3, -44, 18, 10] to index 4 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value -44
+CurrentArray pos 4, CurrentArray Value 18
+
+
+Sum elements 0-4 in array [1, 2, 3, -44, 18, 10]  is  -20.
+The float average is -4.000000.
+The int value is -4.
+The rounded int value is -4
+
+Summing list entries [1, -1] to index 1 in list len 2
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value -1
+
+
+Sum elements 0-1 in array [1, -1]  is  0.
+The float average is 0.000000.
+The int value is 0.
+The rounded int value is 0
+
+Summing list entries [1] to index 0 in list len 1
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Original toIndex -2
+Modified toIndex  5
+Summing list entries [1, 2, 3, 4, 9, 10, 15] to index 5 in list len 7
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+CurrentArray pos 4, CurrentArray Value 9
+CurrentArray pos 5, CurrentArray Value 10
+
+
+Sum elements 0-5 in array [1, 2, 3, 4, 9, 10, 15]  is  29.
+The float average is 4.833333.
+The int value is 4.
+The rounded int value is 5
+
+Summing list entries [1, 2, 3, 4] to index 3 in list len 4
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+
+
+Sum elements 0-3 in array [1, 2, 3, 4]  is  10.
+The float average is 2.500000.
+The int value is 2.
+The rounded int value is 2
+
+Summing list entries [1, 'b', 2] to index 2 in list len 3
+CurrentArray pos 0, CurrentArray Value 1
+Summing list entries [1, 2, 3, 4, 18, 10] to index 4 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+CurrentArray pos 4, CurrentArray Value 18
+
+
+Sum elements 0-4 in array [1, 2, 3, 4, 18, 10]  is  28.
+The float average is 5.600000.
+The int value is 5.
+The rounded int value is 6
+
+Original toIndex -4
+Modified toIndex  2
+Summing list entries [1, 2, 3, -44, 18, 10] to index 2 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+
+
+Sum elements 0-2 in array [1, 2, 3, -44, 18, 10]  is  6.
+The float average is 2.000000.
+The int value is 2.
+The rounded int value is 2
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Summing list entries [1, 2, 3, -44, 18, 10] to index 4 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value -44
+CurrentArray pos 4, CurrentArray Value 18
+
+
+Sum elements 0-4 in array [1, 2, 3, -44, 18, 10]  is  -20.
+The float average is -4.000000.
+The int value is -4.
+The rounded int value is -4
+
+Summing list entries [1, -1] to index 1 in list len 2
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value -1
+
+
+Sum elements 0-1 in array [1, -1]  is  0.
+The float average is 0.000000.
+The int value is 0.
+The rounded int value is 0
+
+Original toIndex -2
+Modified toIndex  5
+Summing list entries [1, 2, 3, 4, 9, 10, 15] to index 5 in list len 7
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+CurrentArray pos 4, CurrentArray Value 9
+CurrentArray pos 5, CurrentArray Value 10
+
+
+Sum elements 0-5 in array [1, 2, 3, 4, 9, 10, 15]  is  29.
+The float average is 4.833333.
+The int value is 4.
+The rounded int value is 5
+
+Summing list entries [1, 2, 3, 4] to index 3 in list len 4
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+
+
+Sum elements 0-3 in array [1, 2, 3, 4]  is  10.
+The float average is 2.500000.
+The int value is 2.
+The rounded int value is 2
+
+Summing list entries [1, 'b', 2] to index 2 in list len 3
+CurrentArray pos 0, CurrentArray Value 1
+Summing list entries [1, 2, 3, 4, 18, 10] to index 4 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+CurrentArray pos 4, CurrentArray Value 18
+
+
+Sum elements 0-4 in array [1, 2, 3, 4, 18, 10]  is  28.
+The float average is 5.600000.
+The int value is 5.
+The rounded int value is 6
+
+Original toIndex -4
+Modified toIndex  2
+Summing list entries [1, 2, 3, -44, 18, 10] to index 2 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+
+
+Sum elements 0-2 in array [1, 2, 3, -44, 18, 10]  is  6.
+The float average is 2.000000.
+The int value is 2.
+The rounded int value is 2
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Summing list entries [1, 2, 3, -44, 18, 10] to index 4 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value -44
+CurrentArray pos 4, CurrentArray Value 18
+
+
+Sum elements 0-4 in array [1, 2, 3, -44, 18, 10]  is  -20.
+The float average is -4.000000.
+The int value is -4.
+The rounded int value is -4
+
+Summing list entries [1, -1] to index 1 in list len 2
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value -1
+
+
+Sum elements 0-1 in array [1, -1]  is  0.
+The float average is 0.000000.
+The int value is 0.
+The rounded int value is 0
+
+Summing list entries [1] to index 0 in list len 1
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Original toIndex -2
+Modified toIndex  5
+Summing list entries [1, 2, 3, 4, 9, 10, 15] to index 5 in list len 7
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+CurrentArray pos 4, CurrentArray Value 9
+CurrentArray pos 5, CurrentArray Value 10
+
+
+Sum elements 0-5 in array [1, 2, 3, 4, 9, 10, 15]  is  29.
+The float average is 4.833333.
+The int value is 4.
+The rounded int value is 5
+
+Summing list entries [1, 2, 3, 4] to index 3 in list len 4
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+
+
+Sum elements 0-3 in array [1, 2, 3, 4]  is  10.
+The float average is 2.500000.
+The int value is 2.
+The rounded int value is 2
+
+Summing list entries [1, 'b', 2] to index 2 in list len 3
+CurrentArray pos 0, CurrentArray Value 1
+Summing list entries [3] to index 0 in list len 1
+CurrentArray pos 0, CurrentArray Value 3
+
+
+Sum elements 0-0 in array [3]  is  3.
+The float average is 3.000000.
+The int value is 3.
+The rounded int value is 3
+
+Summing list entries [3.5] to index 0 in list len 1
+CurrentArray pos 0, CurrentArray Value 3.5
+
+
+Sum elements 0-0 in array [3.5]  is  3.
+The float average is 3.500000.
+The int value is 3.
+The rounded int value is 4
+
+Summing list entries [1, 2, 3, 4, 18, 10] to index 4 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+CurrentArray pos 4, CurrentArray Value 18
+
+
+Sum elements 0-4 in array [1, 2, 3, 4, 18, 10]  is  28.
+The float average is 5.600000.
+The int value is 5.
+The rounded int value is 6
+
+Original toIndex -4
+Modified toIndex  2
+Summing list entries [1, 2, 3, -44, 18, 10] to index 2 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+
+
+Sum elements 0-2 in array [1, 2, 3, -44, 18, 10]  is  6.
+The float average is 2.000000.
+The int value is 2.
+The rounded int value is 2
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Summing list entries [1, 2, 3, -44, 18, 10] to index 4 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value -44
+CurrentArray pos 4, CurrentArray Value 18
+
+
+Sum elements 0-4 in array [1, 2, 3, -44, 18, 10]  is  -20.
+The float average is -4.000000.
+The int value is -4.
+The rounded int value is -4
+
+Summing list entries [1, -1] to index 1 in list len 2
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value -1
+
+
+Sum elements 0-1 in array [1, -1]  is  0.
+The float average is 0.000000.
+The int value is 0.
+The rounded int value is 0
+
+Summing list entries [1] to index 0 in list len 1
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Original toIndex -2
+Modified toIndex  5
+Summing list entries [1, 2, 3, 4, 9, 10, 15] to index 5 in list len 7
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+CurrentArray pos 4, CurrentArray Value 9
+CurrentArray pos 5, CurrentArray Value 10
+
+
+Sum elements 0-5 in array [1, 2, 3, 4, 9, 10, 15]  is  29.
+The float average is 4.833333.
+The int value is 4.
+The rounded int value is 5
+
+Summing list entries [1, 2, 3, 4] to index 3 in list len 4
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+
+
+Sum elements 0-3 in array [1, 2, 3, 4]  is  10.
+The float average is 2.500000.
+The int value is 2.
+The rounded int value is 2
+
+Summing list entries [1, 'b', 2] to index 2 in list len 3
+CurrentArray pos 0, CurrentArray Value 1
+Summing list entries [3] to index 0 in list len 1
+CurrentArray pos 0, CurrentArray Value 3
+
+
+Sum elements 0-0 in array [3]  is  3.
+The float average is 3.000000.
+The int value is 3.
+The rounded int value is 3
+
+Summing list entries [3.5] to index 0 in list len 1
+CurrentArray pos 0, CurrentArray Value 3.5
+
+
+Sum elements 0-0 in array [3.5]  is  3.
+The float average is 3.500000.
+The int value is 3.
+The rounded int value is 4
+
+Summing list entries [1, 2, 3, 4, 18, 10] to index 4 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+CurrentArray pos 4, CurrentArray Value 18
+
+
+Sum elements 0-4 in array [1, 2, 3, 4, 18, 10]  is  28.
+The float average is 5.600000.
+The int value is 5.
+The rounded int value is 6
+
+Original toIndex -4
+Modified toIndex  2
+Summing list entries [1, 2, 3, -44, 18, 10] to index 2 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+
+
+Sum elements 0-2 in array [1, 2, 3, -44, 18, 10]  is  6.
+The float average is 2.000000.
+The int value is 2.
+The rounded int value is 2
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Original toIndex -6
+Modified toIndex  0
+Summing list entries [1, 2, 3, -44, 18, 10] to index 0 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1, 2, 3, -44, 18, 10]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Summing list entries [1, 2, 3, -44, 18, 10] to index 4 in list len 6
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value -44
+CurrentArray pos 4, CurrentArray Value 18
+
+
+Sum elements 0-4 in array [1, 2, 3, -44, 18, 10]  is  -20.
+The float average is -4.000000.
+The int value is -4.
+The rounded int value is -4
+
+Summing list entries [1, -1] to index 1 in list len 2
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value -1
+
+
+Sum elements 0-1 in array [1, -1]  is  0.
+The float average is 0.000000.
+The int value is 0.
+The rounded int value is 0
+
+Summing list entries [1] to index 0 in list len 1
+CurrentArray pos 0, CurrentArray Value 1
+
+
+Sum elements 0-0 in array [1]  is  1.
+The float average is 1.000000.
+The int value is 1.
+The rounded int value is 1
+
+Original toIndex -2
+Modified toIndex  5
+Summing list entries [1, 2, 3, 4, 9, 10, 15] to index 5 in list len 7
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+CurrentArray pos 4, CurrentArray Value 9
+CurrentArray pos 5, CurrentArray Value 10
+
+
+Sum elements 0-5 in array [1, 2, 3, 4, 9, 10, 15]  is  29.
+The float average is 4.833333.
+The int value is 4.
+The rounded int value is 5
+
+Summing list entries [1, 2, 3, 4] to index 3 in list len 4
+CurrentArray pos 0, CurrentArray Value 1
+CurrentArray pos 1, CurrentArray Value 2
+CurrentArray pos 2, CurrentArray Value 3
+CurrentArray pos 3, CurrentArray Value 4
+
+
+Sum elements 0-3 in array [1, 2, 3, 4]  is  10.
+The float average is 2.500000.
+The int value is 2.
+The rounded int value is 2
+
+Summing list entries [1, 'b', 2] to index 2 in list len 3
+CurrentArray pos 0, CurrentArray Value 1
+Summing list entries [3] to index 0 in list len 1
+CurrentArray pos 0, CurrentArray Value 3
+
+
+Sum elements 0-0 in array [3]  is  3.
+The float average is 3.000000.
+The int value is 3.
+The rounded int value is 3
+
+Summing list entries [3.5] to index 0 in list len 1
+CurrentArray pos 0, CurrentArray Value 3.5
+
+
+Sum elements 0-0 in array [3.5]  is  3.
+The float average is 3.500000.
+The int value is 3.
+The rounded int value is 4
+
