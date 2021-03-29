@@ -297,3 +297,41 @@ References :
     https://www.python.org/dev/peps/pep-0570/#positional-only-parameters
     https://docs.python.org/3/tutorial/errors.html
     https://stackoverflow.com/questions/19684434/best-way-to-check-function-arguments (Read but not implemented)w 
+
+GMIT CyberSecurity : Programming for CyberSecurity, Python
+Lecturer : Andrew Beatty
+Problem Sheet Week 9 - Pandas  
+
+Task Requirement : 
+     Read access.log in to a panda dataframe. 
+     Set the time field to be the index. 
+     Use Regex to extract the SessionId from the URL & store the result in a different column
+     Use groupBy to get the sum of all the data downloaded by each sessionId.
+     Plot the result
+
+Program Name : maxData.py 
+
+Program Function : 
+     1. Read the sample log in to a panda dataframe (The program assumes the log file is in the current directory)
+     2. Use regex expression to extract the SessionId from the URL - insert this column at position 1  
+     3. Remove unused columns to make data more readable
+     4. Strip the [] from the datetime field
+     5. Make the datetime field the index
+     6. Group the data by SessionId
+     7. Create a new dataframe sums the summable fields (Response Size) by SessionId - No breakdown by time in at this point
+     8. Use matplotlib to display a graph of the results (Set some seetings regarding font, angle of x axis data so that it is readable
+     9. Print out the data so it is possible to see the response size is indeed summed by SessionId
+    10. Sample the dataframe, this time computing the Response Size per SessionId per day
+    11. Print out this structure so that it can be compared with the previous structure to ensure the grouping/summing is correct
+
+ToDo - use full log, output comparisons to an output file since a full log will generate a lot of output - maybe
+
+References :
+    Assigned lab for week 9 (Pandas)  
+    https://www.kite.com/python/answers/how-to-print-an-entire-pandas-dataframe-in-python#:~:text=Use%20pandas.,to%20be%20displayed%20when%20printed.
+    https://stackoverflow.com/questions/13682044/remove-unwanted-parts-from-strings-in-a-column
+    https://www.geeksforgeeks.org/adding-new-column-to-existing-dataframe-in-pandas/ - adding a column in a specific position in the df. 
+    https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.insert.html - using the panda insert to add a col in a specific location - further reading
+    https://matplotlib.org/stable/gallery/ticks_and_spines/ticklabels_rotation.html
+    https://stackoverflow.com/questions/56816833/pandas-pd-to-datetime-only-keep-time-do-not-date
+
